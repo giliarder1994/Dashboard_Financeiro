@@ -1,0 +1,33 @@
+{
+    "name": "dashboard-financeiro-backend",
+    "version": "2.0.0",
+    "description": "Backend do Dashboard Financeiro — ESM + TypeScript",
+    "type": "module",
+    "main": "dist/app.js",
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/app.js",
+      "dev": "tsx watch src/app.ts",
+      "criar-tabelas": "tsx src/criarTabelas.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "bcrypt": "^6.0.0",
+      "cors": "^2.8.6",
+      "dotenv": "^17.3.1",
+      "express": "^5.2.1",
+      "jsonwebtoken": "^9.0.3",
+      "mysql2": "^3.19.1"
+    },
+    "devDependencies": {
+      "@types/bcrypt": "^5.0.2",
+      "@types/cors": "^2.8.19",
+      "@types/express": "^5.0.3",
+      "@types/jsonwebtoken": "^9.0.9",
+      "@types/node": "^22.15.29",
+      "tsx": "^4.19.4",
+      "typescript": "^5.8.3"
+    }
+  }
