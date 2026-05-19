@@ -3,14 +3,6 @@
 API REST para gerenciamento financeiro pessoal, desenvolvida com **Node.js**, **Express**, **TypeScript** e **MySQL**.
 O projeto permite controle de receitas, despesas, categorias e autenticação de usuários utilizando JWT, seguindo uma arquitetura organizada e fortemente tipada.
 
-Esta versão representa a evolução do projeto original em JavaScript para um ambiente moderno com:
-
-* TypeScript
-* ESM (ECMAScript Modules)
-* Tipagem forte
-* Melhor escalabilidade
-* Maior segurança no desenvolvimento
-
 ---
 
 # 🚀 Tecnologias
@@ -103,47 +95,6 @@ Tipos disponíveis:
 ---
 
 # 🧠 Recursos Técnicos Implementados
-
-## ✅ TypeScript Completo
-
-O projeto utiliza:
-
-* Interfaces
-* Types
-* Tipagem de Requests
-* Tipagem de JWT
-* Tipagem de entidades
-* Strict Mode habilitado
-
----
-
-## ✅ ESM (ECMAScript Modules)
-
-Uso moderno de módulos com:
-
-```ts id="ts002"
-import/export
-```
-
-em vez de:
-
-```js id="ts003"
-require/module.exports
-```
-
----
-
-## ✅ Configuração Strict do TypeScript
-
-O `tsconfig.json` possui:
-
-* `strict`
-* `noImplicitAny`
-* `strictNullChecks`
-
-Isso reduz erros em runtime e melhora a previsibilidade do código.
-
----
 
 ## ✅ Segurança
 
@@ -307,5 +258,3 @@ O sistema foi organizado em camadas para facilitar manutenção e escalabilidade
 # 👨‍💻 Autor
 
 Desenvolvido por **Giliarde Rodrigues**
-
-Estudante de Engenharia de Software focado em desenvolvimento Back-end com Node.js, TypeScript, APIs REST e arquitetura de sistemas escaláveis.
