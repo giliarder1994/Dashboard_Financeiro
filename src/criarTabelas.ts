@@ -28,7 +28,7 @@ const transacoes = `
         id INT AUTO_INCREMENT PRIMARY KEY,
         descricao VARCHAR(255) NOT NULL,
         valor DECIMAL(10,2) NOT NULL,
-        tipo ENUM('receita', 'despesa'), NOT NULL,
+        tipo ENUM('receita', 'despesa') NOT NULL,
         data DATE NOT NULL,
         usuario_id INT NOT NULL,
         categoria_id INT NOT NULL,
