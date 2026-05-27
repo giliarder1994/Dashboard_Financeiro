@@ -1,0 +1,1 @@
+{"version":3,"file":"erro.middleware.js","sourceRoot":"","sources":["../../src/middlewares/erro.middleware.ts"],"names":[],"mappings":"AAEA,MAAM,UAAU,cAAc,CAC5B,IAAW,EACX,IAAa,EACb,GAAa,EACb,KAAmB;IAEnB,OAAO,CAAC,KAAK,CAAC,IAAI,CAAC,CAAC;IACpB,GAAG,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC,EAAE,IAAI,EAAE,0BAA0B,EAAE,CAAC,CAAC;AAC7D,CAAC"}
